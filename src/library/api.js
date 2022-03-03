@@ -1,3 +1,5 @@
+
+
 class API {
   getPokemonList() {
     return fetch(`https://pokeapi.co/api/v2/pokemon/?limit=100`)
